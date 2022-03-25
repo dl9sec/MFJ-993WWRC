@@ -79,7 +79,7 @@ Download the following additional libraries from their websites and install them
 * [ESPAsyncTCP](https://github.com/me-no-dev/ESPAsyncTCP)
 * [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer)
 
-For the first time, the "D1 mini" muist be programmed through the USB connection. Upload the "/data" content to the module. Compile and upload the sketch to the module.
+For the first time, the "D1 mini" must be programmed through the USB connection. Upload the "/data" content to the module. Compile and upload the sketch to the module.
 If the WiFi is set up correctly and the module responds by entering the assigned IP to your web browser, the module can be re-programmed by the OTA update in the Arduino IDE.
 Be aware to disable the OTA password protection (see source code) if you want to upload "/data" content ovber-the-air.
 
