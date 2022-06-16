@@ -100,7 +100,7 @@ The WiFi is set to DHCP.
 
 All the webserver artifacts (webpage, stylesheet, JavaScript, favicon, font, legal information) are stored at the ESPs SPIFFS, which makes it easier to edit files.
 
-If the root directory of the asynchronous webserver is called, iot responds with a html page "index.html". Every 800ms the browser requests a JSON string from the webserver which contains some dynamic information of the module (LED status, FW version and MAC address).
+If the root directory of the asynchronous webserver is called, it responds with a html page "index.html". Every 800ms the browser requests a JSON string from the webserver which contains some dynamic information of the module (LED status, FW version and MAC address).
 So the webpage, the graphics and JavaScript stuff is loaded just once, and only the dynamic elemnts are reloaded and displayed.
 
 The button functionality is done by calling links, which triggers the button press and responds with the index page.
